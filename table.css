@@ -1,0 +1,45 @@
+body {
+background-color: rgb(196, 209, 197);
+}
+table, tr, th, td{
+    font-family: Verdana, sans-serif;
+    padding: 10px 40px;
+    text-align: center;
+    border: 2px solid rgb(12, 12, 12);
+    border-collapse: collapse;
+
+}
+
+.paintrow{
+    background-color: #080808;
+    color: white;
+
+}
+table tbody tr:first-child {
+    font-weight: bold;
+  }
+
+button{
+    margin-left: 100px;
+}
+
+
+button {
+    width:130px;
+    height:42px;
+    border-radius:10px;
+    font-family:calibri;
+    font-weight:bold;
+    font-size:14px;
+    outline:none;
+    margin:0px 10px;
+    background-color: rgb(250, 246, 246);
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 3px black;
+    
+}
+
+
